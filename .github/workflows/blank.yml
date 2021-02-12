@@ -31,6 +31,6 @@ jobs:
           VALIDATE_ALL_CODEBASE: true 
           GO111MODULE: on
           GOROOT: /usr/lib/go 
-          GOPATH: /go:
+          GOPATH: /go
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
